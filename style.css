@@ -1,0 +1,19 @@
+/* Hide ad containers instantly via CSS (before JS runs) */
+#tads,
+#bottomads,
+.ads-ad,
+[data-text-ad],
+#tvcap,
+.commercial-unit-desktop-top,
+.commercial-unit-desktop-rhs,
+.cu-container,
+[aria-label="Ads"],
+[aria-label="תוצאות ממומנות"],
+.mnr-c.pla-unit,
+.pla-hovercard-content-ellip,
+#rhs .ads-ad,
+.sh-sr__shop-result-group,
+[data-ad-client],
+[data-adsbygoogle-status] {
+  display: none !important;
+}
