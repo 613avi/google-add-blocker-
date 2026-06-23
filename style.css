@@ -17,3 +17,29 @@
 [data-adsbygoogle-status] {
   display: none !important;
 }
+
+/* ---------------------------------------------------------------------------
+   Gmail: sponsored emails ("Promotions" tab) + injected promo banners
+   --------------------------------------------------------------------------- */
+
+/* Sponsored email rows in the thread list */
+tr.zA.byd,
+tr.zA[data-promo],
+tr.zA:has(.aZo),
+tr.zA:has(.aZo) ~ tr.zA[id^="ad-"] {
+  display: none !important;
+}
+
+/* The ad badge / sponsored grouping element itself */
+.aZo,
+.bGI .azt {
+  display: none !important;
+}
+
+/* Top-of-inbox promotional banners (feature / Gemini / Meet promos) */
+.bG3,
+.aJ6,
+div[role="region"][aria-label*="promo" i],
+div[aria-label*="קידום" i] {
+  display: none !important;
+}
