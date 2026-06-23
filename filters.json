@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "updated": "2026-06-23",
+  "search": {
+    "removeSelectors": [
+      "#tads",
+      "#bottomads",
+      ".ads-ad",
+      "[data-text-ad]",
+      "#tvcap",
+      ".commercial-unit-desktop-top",
+      ".commercial-unit-desktop-rhs",
+      ".cu-container",
+      "[aria-label=\"Ads\"]",
+      ".mnr-c.pla-unit",
+      ".pla-hovercard-content-ellip",
+      "div[data-hveid] > div[data-text-ad]"
+    ],
+    "cssSelectors": [
+      "#tads",
+      "#bottomads",
+      ".ads-ad",
+      "[data-text-ad]",
+      "#tvcap",
+      ".commercial-unit-desktop-top",
+      ".commercial-unit-desktop-rhs",
+      ".cu-container",
+      "[aria-label=\"Ads\"]",
+      "[aria-label=\"תוצאות ממומנות\"]",
+      ".mnr-c.pla-unit",
+      ".pla-hovercard-content-ellip",
+      "#rhs .ads-ad",
+      ".sh-sr__shop-result-group",
+      "[data-ad-client]",
+      "[data-adsbygoogle-status]"
+    ],
+    "labels": [
+      "Sponsored",
+      "Ad",
+      "Ads",
+      "ממומן",
+      "תוצאות ממומנות",
+      "Sponsored results",
+      "הסתרת תוצאות ממומנות",
+      "Résultats sponsorisés",
+      "Gesponserte Ergebnisse",
+      "Resultados patrocinados"
+    ]
+  },
+  "gmail": {
+    "adBadges": ["Ad", "Ads", "ממומן", "Sponsored", "מודעה"],
+    "rowAdSelectors": [".aZo", ".bGI", ".azt"],
+    "bannerSelectors": [
+      ".bG3",
+      ".aJ6",
+      ".bGI .bG6",
+      "div[role=\"region\"][aria-label*=\"promo\" i]",
+      "div[aria-label*=\"קידום\" i]"
+    ],
+    "cssSelectors": [
+      "tr.zA.byd",
+      "tr.zA[data-promo]",
+      "tr.zA:has(.aZo)",
+      ".aZo",
+      ".bGI .azt",
+      ".bG3",
+      ".aJ6",
+      "div[role=\"region\"][aria-label*=\"promo\" i]",
+      "div[aria-label*=\"קידום\" i]"
+    ]
+  }
+}
