@@ -8,7 +8,7 @@
 // ===========================================================================
 
 const DEFAULT_FILTERS = {
-  version: 2,
+  version: 3,
   search: {
     removeSelectors: [
       '#tads',                    // Top ads container
@@ -42,12 +42,14 @@ const DEFAULT_FILTERS = {
     rowAdSelectors: ['.aZo', '.bGI', '.azt'],
     bannerSelectors: [
       '.bG3', '.aJ6', '.bGI .bG6',
+      'div.nH.GZcuQ', '.HZB3Gf', 'span.r6yEfb', // bottom "Ad · Google Workspace" banner
       'div[role="region"][aria-label*="promo" i]',
       'div[aria-label*="קידום" i]',
     ],
     cssSelectors: [
       'tr.zA.byd', 'tr.zA[data-promo]', 'tr.zA:has(.aZo)', '.aZo', '.bGI .azt',
-      '.bG3', '.aJ6', 'div[role="region"][aria-label*="promo" i]',
+      '.bG3', '.aJ6', 'div.nH.GZcuQ', '.HZB3Gf', 'span.r6yEfb',
+      'div[role="region"][aria-label*="promo" i]',
       'div[aria-label*="קידום" i]',
     ],
   },

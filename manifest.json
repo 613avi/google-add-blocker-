@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "חוסם פרסומות בגוגל ובג'ימייל",
-  "description": "הסרת תוצאות ממומנות ופרסומות מחיפוש גוגל ומ-Gmail (אימיילים ממומנים ובאנרים) באופן אוטומטי | Removes sponsored results and ads from Google Search and Gmail",
-  "version": "1.2",
+  "description": "הסרת תוצאות ממומנות מחיפוש גוגל ופרסומות מ-Gmail (אימיילים ממומנים ובאנרים) | Removes ads from Google Search & Gmail",
+  "version": "1.2.2",
   "permissions": ["storage", "alarms"],
   "host_permissions": ["https://raw.githubusercontent.com/*"],
   "background": {

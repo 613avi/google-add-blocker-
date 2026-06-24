@@ -43,3 +43,10 @@ div[role="region"][aria-label*="promo" i],
 div[aria-label*="קידום" i] {
   display: none !important;
 }
+
+/* Bottom pinned ad banner ("Ad · Google Workspace") */
+div.nH.GZcuQ,
+.HZB3Gf,
+span.r6yEfb {
+  display: none !important;
+}
